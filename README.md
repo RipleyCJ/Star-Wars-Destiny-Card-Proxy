@@ -31,3 +31,7 @@ for 3d printing proxy dice.
 Please let me know of any issues!
 
 May The Force Be With You
+
+
+Credit for the .scad file format goes to:
+https://www.thingiverse.com/thing:3296582
