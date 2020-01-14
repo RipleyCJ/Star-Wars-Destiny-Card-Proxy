@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f6e548-44af-4de9-9c71-435bfd3f4817" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getDeck.py" beforeDir="false" afterPath="$PROJECT_DIR$/getDeck.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,19 +47,20 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="104" />
-          <entry key="py" value="4456" />
+          <entry key="py" value="5226" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4473" />
+          <entry key="Python" value="5243" />
           <entry key="Scratch" value="87" />
         </counts>
       </usages-collector>
@@ -87,16 +88,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getDeck.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="52" column="57" lean-forward="true" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+            <state relative-caret-position="765">
+              <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1579023541706" expanded="true" signature="659:665" ph="..." />
-                <marker date="1579023541706" expanded="true" signature="810:812" ph="..." />
-                <marker date="1579023541706" expanded="true" signature="1147:1335" ph="..." />
-                <marker date="1579023541706" expanded="true" signature="3943:5024" ph="..." />
-                <marker date="1579023541706" expanded="true" signature="5040:5041" ph="..." />
-                <marker date="1579023541706" expanded="true" signature="6835:6840" ph="..." />
+                <marker date="1579037432798" expanded="true" signature="806:854" ph="..." />
+                <marker date="1579037432798" expanded="true" signature="1026:1079" ph="..." />
+                <marker date="1579037432798" expanded="true" signature="1452:1690" ph="..." />
+                <marker date="1579037432798" expanded="true" signature="4435:5518" ph="..." />
+                <marker date="1579037432798" expanded="true" signature="5534:5535" ph="..." />
+                <marker date="1579037432798" expanded="true" signature="7196:7199" ph="..." />
               </folding>
             </state>
           </provider>
@@ -146,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="53" />
     <option name="y" value="23" />
     <option name="width" value="1387" />
@@ -158,7 +159,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -184,6 +184,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,16 +356,8 @@
     <entry file="file://$PROJECT_DIR$/cards.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/cards/05037.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/getDie_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1709">
-          <caret line="117" column="53" selection-start-line="117" selection-start-column="53" selection-end-line="117" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/05037.jpg" />
+    <entry file="file://$PROJECT_DIR$/getDie_test.py" />
     <entry file="file://$PROJECT_DIR$/06005.txt" />
     <entry file="file://$PROJECT_DIR$/04046.txt" />
     <entry file="file://$PROJECT_DIR$/07061.txt" />
@@ -382,13 +375,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dice/11122.txt" />
     <entry file="file://$PROJECT_DIR$/Dice/11072.txt" />
-    <entry file="file://$PROJECT_DIR$/getDice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2355">
-          <caret line="157" selection-start-line="83" selection-start-column="24" selection-end-line="157" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/getDice.py" />
     <entry file="file://$PROJECT_DIR$/Dice/08120.txt" />
     <entry file="file://$PROJECT_DIR$/Dice/07117.txt" />
     <entry file="file://$PROJECT_DIR$/Dice/05032.txt" />
@@ -421,35 +408,29 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Dice/11074.txt" />
-    <entry file="file://$PROJECT_DIR$/cards/06005.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/06005.jpg" />
     <entry file="file://$PROJECT_DIR$/Dice/05037.txt" />
     <entry file="file://$PROJECT_DIR$/Dice/07069.txt" />
     <entry file="file://$PROJECT_DIR$/Dice/11056.txt" />
-    <entry file="file://$PROJECT_DIR$/cards/08060.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/08060.jpg" />
     <entry file="file://$PROJECT_DIR$/{dice_path}{card}.txt" />
     <entry file="file://$PROJECT_DIR$/Dice/04046.jpg" />
+    <entry file="file://$PROJECT_DIR$/cards/01150.jpg" />
     <entry file="file://$PROJECT_DIR$/getDeck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="52" column="57" lean-forward="true" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
+        <state relative-caret-position="765">
+          <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1579023541706" expanded="true" signature="659:665" ph="..." />
-            <marker date="1579023541706" expanded="true" signature="810:812" ph="..." />
-            <marker date="1579023541706" expanded="true" signature="1147:1335" ph="..." />
-            <marker date="1579023541706" expanded="true" signature="3943:5024" ph="..." />
-            <marker date="1579023541706" expanded="true" signature="5040:5041" ph="..." />
-            <marker date="1579023541706" expanded="true" signature="6835:6840" ph="..." />
+            <marker date="1579037432798" expanded="true" signature="806:854" ph="..." />
+            <marker date="1579037432798" expanded="true" signature="1026:1079" ph="..." />
+            <marker date="1579037432798" expanded="true" signature="1452:1690" ph="..." />
+            <marker date="1579037432798" expanded="true" signature="4435:5518" ph="..." />
+            <marker date="1579037432798" expanded="true" signature="5534:5535" ph="..." />
+            <marker date="1579037432798" expanded="true" signature="7196:7199" ph="..." />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cards/01150.jpg">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
