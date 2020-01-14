@@ -22,8 +22,11 @@ same goes for the dice
 
 Change create_dice to false if you only want cards, not scad files for 3d printing dice.
 
+The beg_file.txt and end_file.txt need to be in the same directory as get_deck.py IF you are using this for dice.
+
 Run the python file and you should have all the images downloaded for the cards and if create_dice is true, scad files
 for 3d printing proxy dice.
+
 
 Please let me know of any issues!
 
