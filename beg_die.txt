@@ -1,0 +1,4 @@
+
+$fn = 50;
+DIE_SIZE = 21.48;
+MIN_RADIUS = 3.33;
