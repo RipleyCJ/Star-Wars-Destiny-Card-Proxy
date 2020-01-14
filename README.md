@@ -32,6 +32,8 @@ Please let me know of any issues!
 
 May The Force Be With You
 
+Also, I would be happy for any help if anyone wants to add to this.
+
 
 Credit for the .scad file format goes to:
 https://www.thingiverse.com/thing:3296582
