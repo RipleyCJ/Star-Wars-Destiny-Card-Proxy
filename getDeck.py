@@ -3,7 +3,6 @@ import json
 import urllib.request
 import os
 import re
-import subprocess
 
 deck_list = 35187 # enter a deck list number here to download this deck
 card_path = "Enter the patch for the cards here" #Example: /users/yourname/Documents/Cards

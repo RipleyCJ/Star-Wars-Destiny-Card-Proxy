@@ -88,16 +88,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getDeck.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
+            <state relative-caret-position="66">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1579037432798" expanded="true" signature="806:854" ph="..." />
-                <marker date="1579037432798" expanded="true" signature="1026:1079" ph="..." />
-                <marker date="1579037432798" expanded="true" signature="1452:1690" ph="..." />
-                <marker date="1579037432798" expanded="true" signature="4435:5518" ph="..." />
-                <marker date="1579037432798" expanded="true" signature="5534:5535" ph="..." />
-                <marker date="1579037432798" expanded="true" signature="7196:7199" ph="..." />
+                <marker date="1579037823882" expanded="true" signature="788:836" ph="..." />
+                <marker date="1579037823882" expanded="true" signature="1008:1061" ph="..." />
+                <marker date="1579037823882" expanded="true" signature="1434:1672" ph="..." />
+                <marker date="1579037823882" expanded="true" signature="4417:5500" ph="..." />
+                <marker date="1579037823882" expanded="true" signature="5516:5517" ph="..." />
+                <marker date="1579037823882" expanded="true" signature="7178:7181" ph="..." />
               </folding>
             </state>
           </provider>
@@ -147,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="53" />
     <option name="y" value="23" />
     <option name="width" value="1387" />
@@ -418,16 +418,16 @@
     <entry file="file://$PROJECT_DIR$/cards/01150.jpg" />
     <entry file="file://$PROJECT_DIR$/getDeck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
+        <state relative-caret-position="66">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1579037432798" expanded="true" signature="806:854" ph="..." />
-            <marker date="1579037432798" expanded="true" signature="1026:1079" ph="..." />
-            <marker date="1579037432798" expanded="true" signature="1452:1690" ph="..." />
-            <marker date="1579037432798" expanded="true" signature="4435:5518" ph="..." />
-            <marker date="1579037432798" expanded="true" signature="5534:5535" ph="..." />
-            <marker date="1579037432798" expanded="true" signature="7196:7199" ph="..." />
+            <marker date="1579037823882" expanded="true" signature="788:836" ph="..." />
+            <marker date="1579037823882" expanded="true" signature="1008:1061" ph="..." />
+            <marker date="1579037823882" expanded="true" signature="1434:1672" ph="..." />
+            <marker date="1579037823882" expanded="true" signature="4417:5500" ph="..." />
+            <marker date="1579037823882" expanded="true" signature="5516:5517" ph="..." />
+            <marker date="1579037823882" expanded="true" signature="7178:7181" ph="..." />
           </folding>
         </state>
       </provider>
