@@ -5,22 +5,23 @@ import os
 import re
 import subprocess
 
-deck_list = 35187
-card_path = "/users/cripley/documents/destinydiceproject/cards/"
-dice_path = "/users/cripley/documents/destinydiceproject/dice/"
-create_die = True
-Auto_create_scad = True
+deck_list = 35187 # enter a deck list number here to download this deck
+card_path = "Enter the patch for the cards here" #Example: /users/yourname/Documents/Cards
+dice_path = "enter the path you want for the dice here" #Example: users/yourname/Documents/dice
+create_die = True # True if you want the .scad files for 3d printing dice.
 
 
 
 
 
 
-#gets the deck from swdestinydb - enter the list number in def get_deck('enter deck list here):
+"""This pulls the deck from SW destiny db"""
 def get_deck():
     response = get(f'http://swdestinydb.com/api/public/decklist/{deck_list}')
     deck =  json.loads(response.content.decode('utf-8'))
     return deck
+
+"""Checks if their is a die for the provided card"""
 
 def check_die(card_num):
     if card_num == True:
@@ -28,22 +29,17 @@ def check_die(card_num):
     else:
         return False
 
-
-
-
-
-
-
+"""Downloads the card to the /cards/ folder"""
 def download_card(card, item):
     url = card['imagesrc']
     urllib.request.urlretrieve(url, f'{item}.jpg')
 
 
-
+"""returns the cards die"""
 def get_die(die):
     return die
 
-
+"""Writes to the beggining part of the scad file"""
 def write_beg_file(card):
     with open("beg_die.txt") as f:
         beg_file = (card["code"])
@@ -54,6 +50,7 @@ def write_beg_file(card):
 
             f1.write('FACES = [\n')
 
+"""Writes the end of the scad file"""
 def write_end_file(card):
     with open("end_die.txt") as f:
         beg_file = card["code"]
@@ -61,6 +58,7 @@ def write_end_file(card):
             for line in f:
                 f1.write(line)
 
+"""Checks for blanks and special attack on die"""
 def check_special(num, card):
     with open(f"{dice_path}{card}.scad", "a") as f:
         if "-" in num:
@@ -69,7 +67,7 @@ def check_special(num, card):
             f.write(f'         ["special"]')
 
 
-
+"""checks for all non special results, aka regular results"""
 def check_not_special(num, card):
 
         # no special results on die
@@ -95,6 +93,7 @@ def check_not_special(num, card):
             f.write(f'         ["disrupt", "{die_num}"]')
 
 
+"""Checks for sides that cost a resource"""
 
 def check_resource_cost(num, card):
     if any(char.isdigit() for char in num) and len(num) > 3 and num[0].isdigit():
@@ -122,7 +121,7 @@ def check_resource_cost(num, card):
                 f.write(f'         ["disrupt", "{first_num}", "resource", {last_num}"]')
 
 
-
+"""Checks for plus type cards"""
 def check_plus(num, card):
     if num[0] == "+":
         plus = num[0]
@@ -145,6 +144,8 @@ def check_plus(num, card):
                 f.write(f'         ["indirect", "{plus}{die_num}"]')
             elif "Dr" == die_str:
                 f.write(f'         ["disrupt", "{plus}{die_num}"]')
+
+
 
 def get_cards():
 #print (type(deck))
@@ -185,24 +186,7 @@ def get_cards():
 
                 write_end_file(card)
 
-                stl = subprocess.run ([f"openscad", "-o", "$item.stl", "$item.scad"])
-
         download_card(card, item)  # downloads the card from swdestinydb
-
-
-
-
-
-
-
-
-
-
-
-#checks to see if card has a dice
-
-
-
 
 
 get_cards()
