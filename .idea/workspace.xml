@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f6e548-44af-4de9-9c71-435bfd3f4817" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/getDeck.py" beforeDir="false" afterPath="$PROJECT_DIR$/getDeck.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,12 +56,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="104" />
-          <entry key="py" value="5226" />
+          <entry key="py" value="5304" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5243" />
+          <entry key="Python" value="5321" />
           <entry key="Scratch" value="87" />
         </counts>
       </usages-collector>
@@ -88,16 +89,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getDeck.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="169">
+              <caret line="15" lean-forward="true" selection-end-line="195" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1579037823882" expanded="true" signature="788:836" ph="..." />
-                <marker date="1579037823882" expanded="true" signature="1008:1061" ph="..." />
-                <marker date="1579037823882" expanded="true" signature="1434:1672" ph="..." />
-                <marker date="1579037823882" expanded="true" signature="4417:5500" ph="..." />
-                <marker date="1579037823882" expanded="true" signature="5516:5517" ph="..." />
-                <marker date="1579037823882" expanded="true" signature="7178:7181" ph="..." />
+                <marker date="1579112672785" expanded="true" signature="1107:1160" ph="..." />
+                <marker date="1579112672785" expanded="true" signature="1533:1771" ph="..." />
+                <marker date="1579112672785" expanded="true" signature="4516:5599" ph="..." />
+                <marker date="1579112672785" expanded="true" signature="5615:5616" ph="..." />
+                <marker date="1579112672785" expanded="true" signature="7277:7280" ph="..." />
               </folding>
             </state>
           </provider>
@@ -288,12 +288,12 @@
     <frame x="53" y="23" width="1387" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.36510068" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49964765" visible="true" weight="0.36510068" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42281878" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -418,16 +418,15 @@
     <entry file="file://$PROJECT_DIR$/cards/01150.jpg" />
     <entry file="file://$PROJECT_DIR$/getDeck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="169">
+          <caret line="15" lean-forward="true" selection-end-line="195" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1579037823882" expanded="true" signature="788:836" ph="..." />
-            <marker date="1579037823882" expanded="true" signature="1008:1061" ph="..." />
-            <marker date="1579037823882" expanded="true" signature="1434:1672" ph="..." />
-            <marker date="1579037823882" expanded="true" signature="4417:5500" ph="..." />
-            <marker date="1579037823882" expanded="true" signature="5516:5517" ph="..." />
-            <marker date="1579037823882" expanded="true" signature="7178:7181" ph="..." />
+            <marker date="1579112672785" expanded="true" signature="1107:1160" ph="..." />
+            <marker date="1579112672785" expanded="true" signature="1533:1771" ph="..." />
+            <marker date="1579112672785" expanded="true" signature="4516:5599" ph="..." />
+            <marker date="1579112672785" expanded="true" signature="5615:5616" ph="..." />
+            <marker date="1579112672785" expanded="true" signature="7277:7280" ph="..." />
           </folding>
         </state>
       </provider>

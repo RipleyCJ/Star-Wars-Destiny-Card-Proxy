@@ -5,9 +5,13 @@ import os
 import re
 
 deck_list = 35187 # enter a deck list number here to download this deck
-card_path = "Enter the patch for the cards here" #Example: /users/yourname/Documents/Cards
-dice_path = "enter the path you want for the dice here" #Example: users/yourname/Documents/dice
+
+base_folder = "change to base of where ever you placed the DestinyDiceProject Folder" #example: /users/ripleycj/documents/destinydiceproject/
+card_path = f"{base_folder}cards/"
+dice_path = f"{base_folder}dice/"
 create_die = True # True if you want the .scad files for 3d printing dice.
+
+os.chdir(base_folder)#changes the directory to the base of the project
 
 
 
@@ -24,14 +28,14 @@ def get_deck():
 
 def check_die(card_num):
     if card_num == True:
-        return True
+    	return True
     else:
         return False
 
 """Downloads the card to the /cards/ folder"""
 def download_card(card, item):
-    url = card['imagesrc']
-    urllib.request.urlretrieve(url, f'{item}.jpg')
+	url = card['imagesrc']
+	urllib.request.urlretrieve(url, f'{card_path}{item}.jpg')
 
 
 """returns the cards die"""
