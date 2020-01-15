@@ -55,12 +55,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="104" />
-          <entry key="py" value="5308" />
+          <entry key="py" value="5330" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5325" />
+          <entry key="Python" value="5347" />
           <entry key="Scratch" value="87" />
         </counts>
       </usages-collector>
@@ -89,14 +89,14 @@
         <entry file="file://$PROJECT_DIR$/getDeck.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="59">
-              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1579124025019" expanded="true" signature="1082:1135" ph="..." />
-                <marker date="1579124025019" expanded="true" signature="1508:1746" ph="..." />
-                <marker date="1579124025019" expanded="true" signature="4491:5574" ph="..." />
-                <marker date="1579124025019" expanded="true" signature="5590:5591" ph="..." />
-                <marker date="1579124025019" expanded="true" signature="7252:7255" ph="..." />
+                <marker date="1579125348591" expanded="true" signature="1060:1113" ph="..." />
+                <marker date="1579125348591" expanded="true" signature="1486:1724" ph="..." />
+                <marker date="1579125348591" expanded="true" signature="4469:5552" ph="..." />
+                <marker date="1579125348591" expanded="true" signature="5568:5569" ph="..." />
+                <marker date="1579125348591" expanded="true" signature="7230:7233" ph="..." />
               </folding>
             </state>
           </provider>
@@ -418,14 +418,14 @@
     <entry file="file://$PROJECT_DIR$/getDeck.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
-          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1579124025019" expanded="true" signature="1082:1135" ph="..." />
-            <marker date="1579124025019" expanded="true" signature="1508:1746" ph="..." />
-            <marker date="1579124025019" expanded="true" signature="4491:5574" ph="..." />
-            <marker date="1579124025019" expanded="true" signature="5590:5591" ph="..." />
-            <marker date="1579124025019" expanded="true" signature="7252:7255" ph="..." />
+            <marker date="1579125348591" expanded="true" signature="1060:1113" ph="..." />
+            <marker date="1579125348591" expanded="true" signature="1486:1724" ph="..." />
+            <marker date="1579125348591" expanded="true" signature="4469:5552" ph="..." />
+            <marker date="1579125348591" expanded="true" signature="5568:5569" ph="..." />
+            <marker date="1579125348591" expanded="true" signature="7230:7233" ph="..." />
           </folding>
         </state>
       </provider>

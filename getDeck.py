@@ -6,7 +6,7 @@ import re
 
 deck_list = 35187 # enter a deck list number here to download this deck
 
-base_folder = "/users/ripleycj/documents/destinydiceproject" #example: /users/ripleycj/documents/destinydiceproject/
+base_folder = "choose/a_filepath/here" #example: /users/ripleycj/documents/destinydiceproject/
 card_path = f'{base_folder}cards/'
 dice_path = f'{base_folder}dice/'
 create_die = True # True if you want the .scad files for 3d printing dice.
