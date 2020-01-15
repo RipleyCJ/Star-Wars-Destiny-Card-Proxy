@@ -6,9 +6,9 @@ import re
 
 deck_list = 35187 # enter a deck list number here to download this deck
 
-base_folder = "change to base of where ever you placed the DestinyDiceProject Folder" #example: /users/ripleycj/documents/destinydiceproject/
-card_path = f"{base_folder}cards/"
-dice_path = f"{base_folder}dice/"
+base_folder = "/users/ripleycj/documents/destinydiceproject" #example: /users/ripleycj/documents/destinydiceproject/
+card_path = f'{base_folder}cards/'
+dice_path = f'{base_folder}dice/'
 create_die = True # True if you want the .scad files for 3d printing dice.
 
 os.chdir(base_folder)#changes the directory to the base of the project
