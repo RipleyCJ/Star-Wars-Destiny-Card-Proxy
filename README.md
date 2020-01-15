@@ -11,6 +11,9 @@ How To Use:
 Download the program.
 
 Python needs to be installed your system
+Also, need to have the requests module installed as well.
+
+cmd: pip install requests
 
 Open the "get_deck.py" file in your favorite text editor
 
