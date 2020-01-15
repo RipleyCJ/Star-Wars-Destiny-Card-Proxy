@@ -3,15 +3,42 @@ import json
 import urllib.request
 import os
 import re
+import shutil
 
 deck_list = 35187 # enter a deck list number here to download this deck
 
-base_folder = "choose/a_filepath/here" #example: /users/ripleycj/documents/destinydiceproject/
-card_path = f'{base_folder}cards/'
-dice_path = f'{base_folder}dice/'
+base_folder = "/your/folder/here" #example: /users/ripleycj/documents/destinydiceproject/
+os.chdir(base_folder)#changes the directory to the base of the project
+
+
+"""Creates card and dice folder - Deletes them if they already exist"""
+
+if os.path.exists (f'{base_folder}cards/') == True:
+    shutil.rmtree(f'{base_folder}cards/')
+
+if os.path.exists(f'{base_folder}dice/')   == True:
+    shutil.rmtree(f"{base_folder}dice/")
+
+
+try:
+    create_card_file = os.mkdir(f'{base_folder}cards')
+except OSError:
+    print ("creation of the folder failed")
+
+try:
+    create_dice_file = os.mkdir(f'{base_folder}dice/')
+except:
+    print ("creation of the folder failed")
+
+
+# path to the now created card and dice folder
+card_path = (f'{base_folder}cards/')
+dice_path = (f'{base_folder}dice/')
+
 create_die = True # True if you want the .scad files for 3d printing dice.
 
-os.chdir(base_folder)#changes the directory to the base of the project
+
+
 
 
 

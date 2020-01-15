@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02f6e548-44af-4de9-9c71-435bfd3f4817" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Dice/.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dice/create_die.sh" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/getDeck.py" beforeDir="false" afterPath="$PROJECT_DIR$/getDeck.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,12 +57,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="104" />
-          <entry key="py" value="5330" />
+          <entry key="py" value="6290" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="5347" />
+          <entry key="Python" value="6307" />
           <entry key="Scratch" value="87" />
         </counts>
       </usages-collector>
@@ -88,15 +90,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getDeck.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            <state relative-caret-position="135">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1579125348591" expanded="true" signature="1060:1113" ph="..." />
-                <marker date="1579125348591" expanded="true" signature="1486:1724" ph="..." />
-                <marker date="1579125348591" expanded="true" signature="4469:5552" ph="..." />
-                <marker date="1579125348591" expanded="true" signature="5568:5569" ph="..." />
-                <marker date="1579125348591" expanded="true" signature="7230:7233" ph="..." />
+                <marker date="1579130923223" expanded="true" signature="1623:1676" ph="..." />
+                <marker date="1579130923223" expanded="true" signature="2049:2287" ph="..." />
+                <marker date="1579130923223" expanded="true" signature="5032:6115" ph="..." />
+                <marker date="1579130923223" expanded="true" signature="6131:6132" ph="..." />
+                <marker date="1579130923223" expanded="true" signature="7793:7796" ph="..." />
               </folding>
             </state>
           </provider>
@@ -164,11 +166,6 @@
             <path>
               <item name="DestinyDiceProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DestinyDiceProject" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DestinyDiceProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DestinyDiceProject" type="462c0819:PsiDirectoryNode" />
-              <item name="Dice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DestinyDiceProject" type="b2602c69:ProjectViewProjectNode" />
@@ -417,15 +414,15 @@
     <entry file="file://$PROJECT_DIR$/cards/01150.jpg" />
     <entry file="file://$PROJECT_DIR$/getDeck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="135">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
-            <marker date="1579125348591" expanded="true" signature="1060:1113" ph="..." />
-            <marker date="1579125348591" expanded="true" signature="1486:1724" ph="..." />
-            <marker date="1579125348591" expanded="true" signature="4469:5552" ph="..." />
-            <marker date="1579125348591" expanded="true" signature="5568:5569" ph="..." />
-            <marker date="1579125348591" expanded="true" signature="7230:7233" ph="..." />
+            <marker date="1579130923223" expanded="true" signature="1623:1676" ph="..." />
+            <marker date="1579130923223" expanded="true" signature="2049:2287" ph="..." />
+            <marker date="1579130923223" expanded="true" signature="5032:6115" ph="..." />
+            <marker date="1579130923223" expanded="true" signature="6131:6132" ph="..." />
+            <marker date="1579130923223" expanded="true" signature="7793:7796" ph="..." />
           </folding>
         </state>
       </provider>
