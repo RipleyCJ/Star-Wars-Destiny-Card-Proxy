@@ -2,11 +2,11 @@
 $fn = 50;
 DIE_SIZE = 21.48;
 MIN_RADIUS = 3.33;
-DIE_NUMBER = "032";
+DIE_NUMBER = "gger of Mortis";
 FACES = [
-         ["melee", "3"],
-         ["melee", "3", "resource", "1"],
-         ["shield", "1"],
+         ["melee", "2"],
+         ["melee", "2"],
+         ["melee", "+3"],
          ["shield", "1"],
          ["resource", "1"],
          ["blank"]

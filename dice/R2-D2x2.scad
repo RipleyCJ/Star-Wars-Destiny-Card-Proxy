@@ -2,14 +2,15 @@
 $fn = 50;
 DIE_SIZE = 21.48;
 MIN_RADIUS = 3.33;
-DIE_NUMBER = "122";
+DIE_NUMBER = "-D2";
 FACES = [
+         ["melee", "1"],
          ["melee", "2"],
-         ["focus", "1"],
+         ["disrupt", "1"],
          ["shield", "1"],
          ["resource", "1"],
-         ["special"],
-         ["special"]
+         ["blank"]
+
          ];
 module rounded_cube(size, rounded) {
     newsize = size - rounded*2;

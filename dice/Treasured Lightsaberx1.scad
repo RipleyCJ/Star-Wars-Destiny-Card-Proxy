@@ -2,12 +2,12 @@
 $fn = 50;
 DIE_SIZE = 21.48;
 MIN_RADIUS = 3.33;
-DIE_NUMBER = "037";
+DIE_NUMBER = "easured Lightsaber";
 FACES = [
-         ["melee", "2"],
-         ["melee", "+3"],
-         ["shield", "2"],
-         ["shield", "2"],
+         ["melee", "+1"],
+         ["melee", "+2"],
+         ["shield", "1"],
+         ["resource", "1"],
          ["special"],
          ["blank"]
 

@@ -2,13 +2,13 @@
 $fn = 50;
 DIE_SIZE = 21.48;
 MIN_RADIUS = 3.33;
-DIE_NUMBER = "072";
+DIE_NUMBER = "i-Wan Kenobi's Lightsaber";
 FACES = [
-         ["melee", "1"],
-         ["melee", "+2"],
-         ["shield", "1"],
-         ["shield", "1"],
-         ["resource", "1"],
+         ["melee", "2"],
+         ["melee", "+3"],
+         ["shield", "2"],
+         ["shield", "2"],
+         ["special"],
          ["blank"]
 
          ];

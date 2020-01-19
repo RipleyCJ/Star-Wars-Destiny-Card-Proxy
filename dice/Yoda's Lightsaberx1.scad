@@ -2,7 +2,7 @@
 $fn = 50;
 DIE_SIZE = 21.48;
 MIN_RADIUS = 3.33;
-DIE_NUMBER = "074";
+DIE_NUMBER = "da's Lightsaber";
 FACES = [
          ["melee", "1"],
          ["melee", "+1"],

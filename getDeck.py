@@ -8,8 +8,8 @@ import time
 
 deck_list = 35187  # enter a deck list number here to download this deck
 
-base_folder = "your/folder/here/"  # example: /users/ripleycj/documents/destinydiceproject/
-create_die = False  # True if you want the .scad files for 3d printing dice.
+base_folder = "/users/cripley/documents/destinydiceproject/"  # example: /users/ripleycj/documents/destinydiceproject/
+create_die = True  # True if you want the .scad files for 3d printing dice.
 
 """Creates card and dice folder - Deletes them if they already exist"""
 
@@ -59,8 +59,6 @@ def get_all_cards():
 
 
 def get_card_name(name):
-    # esponse = get(f'http://swdestinydb.com/api/public/card/{item}')
-    # cardNum = json.loads(response.content.decode('utf-8'))
     return name
 
 
@@ -71,6 +69,13 @@ def get_card_quantity(item, cardDeck):
     quantity = cardDeck['slots'][f'{item}']
 
     return quantity['quantity']
+
+"""gets the number of dice needed"""
+
+def get_dice_quantity(item, cardDeck):
+    quantity = cardDeck['slots'][f'{item}']
+
+    return quantity['dice']
 
 
 """Downloads the card to the /cards/ folder"""
@@ -125,8 +130,8 @@ def write_end_file(card):
 """Checks for blanks and special attack on die"""
 
 
-def check_special(num, card):
-    with open(f"{dice_path}{card}.scad", "a") as f:
+def check_special(num, name):
+    with open(f"{dice_path}{name}.scad", "a") as f:
         if "-" in num:
             f.write(f'         ["blank"]\n')
         if "Sp" == num:
@@ -136,12 +141,11 @@ def check_special(num, card):
 """checks for all non special results, aka regular results"""
 
 
-def check_not_special(num, card):
-    # no special results on die
+def check_not_special(num, name):
     die_num = num[0]
     die_str = num.replace(die_num[0], '')
 
-    with open(f"{dice_path}{card}.scad", "a") as f:
+    with open(f"{dice_path}{name}.scad", "a") as f:
         if "R" == die_str:  # resource card
             f.write(f'         ["resource", "{die_num}"]')
         elif "RD" == die_str:  # range damage
@@ -163,13 +167,13 @@ def check_not_special(num, card):
 """Checks for sides that cost a resource"""
 
 
-def check_resource_cost(num, card):
+def check_resource_cost(num, name):
     if any(char.isdigit() for char in num) and len(num) > 3 and num[0].isdigit():
         first_num = num[0]
         last_num = num[3]
         pattern = pattern = '[0-9]'
         die_str = re.sub(pattern, '', num)
-        with open(f"{dice_path}{card}.scad", "a") as f:
+        with open(f"{dice_path}{name}.scad", "a") as f:
 
             if "R" == die_str:  # resource card
                 f.write(f'         ["resource", "{first_num}", "resource", "{last_num}"]')
@@ -192,12 +196,12 @@ def check_resource_cost(num, card):
 """Checks for plus type cards"""
 
 
-def check_plus(num, card):
+def check_plus(num, name):
     if num[0] == "+":
         plus = num[0]
         die_num = int(re.search(r'\d+', num).group())
         die_str = num[2:]
-        with open(f"{dice_path}{card}.scad", "a") as f:
+        with open(f"{dice_path}{name}.scad", "a") as f:
             if "R" == die_str:  # resource card
                 f.write(f'         ["resource", "{plus}{die_num}"]')
             elif "RD" == die_str:  # range damage
@@ -216,7 +220,8 @@ def check_plus(num, card):
                 f.write(f'         ["disrupt", "{plus}{die_num}"]')
 
 
-def get_cards():
+def main():
+    start_time = time.time()  # for testing run time of program
     cardDeck = get_deck()
     deckCards = get_all_cards()
 
@@ -241,29 +246,31 @@ def get_cards():
             if check_die(card_list["has_die"]):
                 die = get_die(card_list["sides"])
 
-                write_beg_file(item)
+                write_beg_file(name)
 
                 for i in die:  # iterates over all 6 sides
-                    check_special(i, item)  # checks for blank side, or special ability side
-                    check_not_special(i, item)  # All regular die are checked for here
-                    check_resource_cost(i, item)  # die with resource cost
-                    check_plus(i, item)  # die with + character
+                    check_special(i, name)  # checks for blank side, or special ability side
+                    check_not_special(i, name)  # All regular die are checked for here
+                    check_resource_cost(i, name)  # die with resource cost
+                    check_plus(i, name)  # die with + character
 
                     if die_count < 6:
-                        with open(f"{dice_path}{item}.scad", "a") as f:
+                        with open(f"{dice_path}{name}.scad", "a") as f:
                             f.write(",\n")
 
                         die_count += 1
                     else:
-                        with open(f"{dice_path}{item}.scad", "a") as f:
+                        with open(f"{dice_path}{name}.scad", "a") as f:
                             f.write("\n         ];\n")
 
-                write_end_file(card)
+                write_end_file(name)
+                dice_quantity = get_dice_quantity(item, cardDeck)
+                os.rename(f"{dice_path}{name}.scad", f"{dice_path}{name}x{dice_quantity}.scad")
 
         quantity = get_card_quantity(item, cardDeck)
         urllib.request.urlretrieve(url, f'{card_path}{name} X{quantity}.jpg')
+    print("--- %s seconds ---" % (time.time() - start_time))
 
 
-start_time = time.time()  # for testing run time of program
-get_cards()
-print("--- %s seconds ---" % (time.time() - start_time))
+if __name__ == '__main__':
+    main()
