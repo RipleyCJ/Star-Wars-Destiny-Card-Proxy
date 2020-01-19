@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="02f6e548-44af-4de9-9c71-435bfd3f4817" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cards.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/getDeck.py" beforeDir="false" afterPath="$PROJECT_DIR$/getDeck.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,29 +57,29 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="104" />
-          <entry key="py" value="6290" />
+          <entry key="py" value="6519" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="6307" />
+          <entry key="Python" value="6536" />
           <entry key="Scratch" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="jpg" value="7" />
+          <entry key="jpg" value="8" />
           <entry key="json" value="1" />
-          <entry key="py" value="9" />
+          <entry key="py" value="10" />
           <entry key="txt" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Image" value="7" />
+          <entry key="Image" value="8" />
           <entry key="JSON" value="1" />
           <entry key="PLAIN_TEXT" value="64" />
-          <entry key="Python" value="7" />
+          <entry key="Python" value="8" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
@@ -88,18 +90,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/getDeck.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
-                <marker date="1579130923223" expanded="true" signature="1623:1676" ph="..." />
-                <marker date="1579130923223" expanded="true" signature="2049:2287" ph="..." />
-                <marker date="1579130923223" expanded="true" signature="5032:6115" ph="..." />
-                <marker date="1579130923223" expanded="true" signature="6131:6132" ph="..." />
-                <marker date="1579130923223" expanded="true" signature="7793:7796" ph="..." />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cards/05032.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -132,6 +134,8 @@
       <find>die_count</find>
       <find>scad</find>
       <find>txt</find>
+      <find>slots</find>
+      <find>card_</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,13 +146,14 @@
       <list>
         <option value="$PROJECT_DIR$/getDie_test.py" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$PROJECT_DIR$/../DestinyDiceProject_copy/getDeck.py" />
         <option value="$PROJECT_DIR$/getDeck.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="53" />
-    <option name="y" value="23" />
+    <option name="x" value="60" />
+    <option name="y" value="56" />
     <option name="width" value="1387" />
     <option name="height" value="837" />
   </component>
@@ -165,6 +170,11 @@
             <path>
               <item name="DestinyDiceProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="DestinyDiceProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DestinyDiceProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DestinyDiceProject" type="462c0819:PsiDirectoryNode" />
+              <item name="cards" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DestinyDiceProject" type="b2602c69:ProjectViewProjectNode" />
@@ -279,7 +289,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="23" width="1387" height="837" extended-state="0" />
+    <frame x="60" y="56" width="1387" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
@@ -287,7 +297,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49964765" weight="0.36510068" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49964765" visible="true" weight="0.36510068" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42281878" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -333,8 +343,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sp.txt" />
-    <entry file="file://$PROJECT_DIR$/01001.txt" />
     <entry file="file://$PROJECT_DIR$/01002.txt" />
     <entry file="file://$PROJECT_DIR$/01009.scad" />
     <entry file="file://$PROJECT_DIR$/01007.scad" />
@@ -408,27 +416,35 @@
     <entry file="file://$PROJECT_DIR$/{dice_path}{card}.txt" />
     <entry file="file://$PROJECT_DIR$/Dice/04046.jpg" />
     <entry file="file://$PROJECT_DIR$/cards/01150.jpg" />
-    <entry file="file://$PROJECT_DIR$/getDeck.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-            <marker date="1579130923223" expanded="true" signature="1623:1676" ph="..." />
-            <marker date="1579130923223" expanded="true" signature="2049:2287" ph="..." />
-            <marker date="1579130923223" expanded="true" signature="5032:6115" ph="..." />
-            <marker date="1579130923223" expanded="true" signature="6131:6132" ph="..." />
-            <marker date="1579130923223" expanded="true" signature="7793:7796" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2115">
           <caret line="145" column="16" selection-start-line="145" selection-start-column="16" selection-end-line="152" selection-end-column="29" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DestinyDiceProject_copy/getDeck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cards/05032.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getDeck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
