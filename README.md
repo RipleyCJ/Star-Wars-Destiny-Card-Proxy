@@ -4,24 +4,26 @@ Today is Jan 14, 2019, which is also the day that FFG announce that they are bri
 
 Well, this may be bad timing then - This project is for creating proxy dice and cards for Star Wars Destiny. 
 
-This project utilizes decklists from swdestinydb.com
+This project utilizes decklists from swdestinydb.com and downloads the card faces, as well as creates a .scad file for making 3D printed dice with OpenScad.
 
 How To Use:
 
 Download the program.
 
-Python needs to be installed your system
+Python3 needs to be installed your system
 Also, need to have the requests module installed as well.
 
-cmd: pip install requests
+cmd: pip3 install requests
 
 Open the "get_deck.py" file in your favorite text editor
 
 There are a few things you will need to edit
 
-Deck_list: enter a number for a decklist on swdestinydb.com
-enter the path that you would like the cards to downloaded to - This needs to be the explicit path
-same goes for the dice
+Deck_list: enter a number for a decklist on swdestinydb.com - The decklist is the number listed in the url.
+Example: https://swdestinydb.com/decklist/view/35305/oldmansolochewie-1.0 - Decklist is 35305 for this deck.
+
+
+In base_folder, enter the path to wherever you downloaded this project.
 
 Change create_dice to false if you only want cards, not scad files for 3d printing dice.
 
